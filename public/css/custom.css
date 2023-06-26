@@ -1,0 +1,265 @@
+*{margin: 0px;
+font-family: xyz;
+}
+
+@font-face{
+	src:url(../fonts/PlayfairDisplay-VariableFont_wght.ttf);
+	font-family: xyz;
+}
+html,body{
+	scroll-behavior: smooth;
+	background-color: #edf0f3;
+}
+#index{
+	background-image: url(../images/pxfuel.jpg);
+	background-size: 100% 100%;
+	height: 550px;
+}
+.navbar{
+/*	background-color:grey;*/
+	height: 70px;
+	background-color: dark;
+	position: sticky;
+	top: 10px;
+
+}
+.logo{
+		position: absolute;
+		width: 30%;
+}
+
+.img_logo
+{
+	height: 90px;
+    margin-left: 50px;
+}
+
+.menu{
+		position: absolute;
+		right: 0;
+    	width: 70%;
+
+}
+.menu ul li{
+	display: inline-block;
+	font-size: 24px;
+	color: white;
+	border: 2px solid white;
+	border-radius: 2px 35px;
+	text-align: center;
+	width: 170px;
+	line-height: 60px;
+	height: calc(60px - 4px);
+	text-transform: uppercase;
+	text-shadow: 3px 3px 3px blue;
+	background-image: linear-gradient(45deg,#DCDCDC,#03a9f4,#DCDCDC);
+}
+
+.menu ul li:hover{
+    color: blue;
+	border: 2px solid blue;
+    text-shadow: 3px 3px 3px white;
+
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+                           /* thar section css start*/
+.tharSUV{
+	background-image: linear-gradient(45deg,#DCDCDC,#03a9f4,#DCDCDC);
+	width: 25.33%;
+	float: left;
+	margin: 2%;
+	padding: 2%;
+	text-align: center;
+	border-radius: 4px 55px;
+}
+.tharSUV:hover{
+	box-shadow: 10px 10px 10px grey;
+
+}
+.tharSUV>img{
+	height: 350px;
+	width: 350px;
+	border: 2px blue;
+	border-radius:50%;
+}
+.tharSUV>h1{
+	margin-top: 10px;/*margine 10px top,bottom*/
+	color: white;
+	text-shadow: 2px 2px 2px blue;
+}
+.tharSUV>p{
+	margin: 10px,0px;/*margine 10px top,bottom*/
+	color: darkblue;
+	text-shadow: 2px 2px 2px white;
+}
+.tharSUV>a{
+	margin-top: 10px;
+	color: red;
+	width: 200px;
+	height: 50px;
+	display: inline-block;
+	font-size: 22px;
+	border: 2px solid white;
+	line-height: 50px;/* text center vartically, value should be same as to element height*/
+	text-decoration: none;
+	text-shadow: 2px 2px 2px white;
+	border-radius: 2px 15px;
+}
+.tharSUV>a:hover{
+	font-size: 25px;
+	border: none;
+	}	
+.veh{
+	margin: 20px 0px 0px 0px;
+    text-align:center;
+    font-size: 35px;
+    color: white;
+    text-shadow: 2px 2px 2px blue;
+}
+                                    /*  about_us css start   */
+#about_us{
+	background-image: url(../images/banner.jpg);
+	background-size: 100% 100%;
+	height: 400px;
+}
+
+.ab_parent_sec{
+	margin-top: 10px;
+	height: 400px;
+
+}
+.ab_section1{
+	margin: 10px;
+	padding: 5px ;
+	position: absolute;
+	width:66%;
+
+}
+.ab_section2{
+	padding: 10px;
+	position: absolute;
+    width: 30%;
+    right: 0;
+
+    }
+
+
+.ab_section1>h1{
+    font-size: 30px;
+    color: white;
+    text-shadow: 2px 2px 2px blue;
+} 
+.ab_section1>hr{
+	width: 350px;
+    border-width: 1px;
+    border-color: black;
+}
+
+.ab_section1>p{
+	margin-top: 10px;
+	font-size: 18px;
+	text-align: justify;
+
+
+}
+.ab_section2>img{
+    height: 300px;
+	width: 400px;
+	border-radius: 4px 55px;
+}
+                              /*  contact_us css start   */
+
+#contact_us{/*
+	background-image: url(../images/banner4.jpg);
+	background-size: 100% 100%;*/
+	height: 110px;
+	background-color: black;
+
+}
+.ct_parent{
+  color: white;
+  background: url(../images/thar1.webp);
+  height: 500px;
+  background-size: 100% 100%;
+  opacity: 0.6;
+  background-color: black; 
+	}
+.ct_section1{
+	color: white;
+	position: absolute;
+	width:48%;
+	margin: 20px 10px;
+	padding: 15px;
+}
+.ct_section1>h1{
+    font-size: 35px;
+    margin: 0px 0px 15px 0px;
+    text-shadow: 2px 2px 2px blue;
+
+  	}
+.ct_section1>h3{
+	font-size: 24px;
+	margin: 4px 0px;
+	text-shadow: 2px 2px 2px blue;
+	}
+.ct_section1>p{	
+    font-size: 20px;
+	margin: 20px 0px;
+	text-align: justify;
+}
+.ct_section1>a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    margin-top:10px ;
+	}
+.ct_section1>a:hover{
+    text-shadow: 2px 2px 2px darkblue;
+    font-size: 15px;
+    margin-top:10px ;
+	}
+
+.ct_section2{
+    color: white;
+	position: absolute;
+    width: 48%;
+    right: 0;
+    margin: 0px 10px;
+    padding: 15px;
+    }
+  input[type=text], textarea {
+  width: 80%;
+  margin: 20px 50px 0px;
+  padding: 10px;
+  font-size: 18px;
+}
+
+input[type=submit] {
+  background-color: #0000FF;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  margin: 20px 0px 0px 50px;
+}
+
+input[type=submit]:hover {
+  background-color: #1E90FF;
+}
+
+                              /*  footer css start   */
+footer{
+	text-align: center;
+	color: white;
+	background-color: black;
+	padding: 10px 0px;
+	margin-top: 10px;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
